@@ -1,0 +1,45 @@
+.sideBar {
+   flex: 1;
+   background-color: rgb(251, 251, 255);
+   /* Making it a 100vh will overflow.  Thus, calc will prevent it */
+   height: calc(100vh - 50px);
+   position: sticky;
+   top: 50px;
+}
+
+.sideBarWrapper {
+   padding: 20px;
+   color: #555;
+}
+
+.sideBarMenu {
+   margin-bottom: 10px;
+}
+
+.sideBarTitle {
+   font-size: 13px;
+   color: rgb(187, 186, 186);
+}
+.sideBarList {
+   list-style: none;
+   padding: 5px;
+}
+
+.sideBarListItem {
+   padding: 5px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+}
+/* 'Home' initially has border radius color */
+.sideBarListItem.active,
+.sideBarListItem:hover {
+   background-color: rgb(240, 240, 255);
+}
+
+.sideBarIcons {
+   /* Changing the size for material icons '!important' */
+   font-size: 20px !important;
+   margin-right: 5px;
+}

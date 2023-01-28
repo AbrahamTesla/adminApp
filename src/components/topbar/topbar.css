@@ -1,0 +1,59 @@
+.topbar {
+   width: 100%;
+   background-color: white;
+   height: 50px;
+   /* scrolling down will always show on top and over what ever elements */
+   position: sticky;
+   top: 0;
+   z-index: 999;
+}
+
+.topbarWrapper {
+   height: 100%;
+   padding: 0px 20px;
+
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo {
+   font-weight: bold;
+   font-size: 30px;
+   cursor: pointer;
+   color: darkblue;
+   margin-right: 10px;
+   /* Light gray color */
+   color: #555;
+}
+
+.topBarIconsContainer {
+   position: relative;
+   cursor: pointer;
+}
+
+.topIconBadge {
+   position: absolute;
+   background-color: red;
+   right: 0px;
+   top: -5px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 10px;
+}
+.topRight {
+   display: flex;
+   align-items: center;
+}
+
+.profilePicture {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   object-fit: cover;
+   cursor: pointer;
+}
