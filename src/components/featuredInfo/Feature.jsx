@@ -10,7 +10,7 @@ export default function Feature() {
             <div className='featuredMoneyContainer'>
                <span className='featuredMoney'>$1,433</span>
                <span className='featuredMoneyRate'>
-                  -11.4 <ArrowDownward />
+                  -11.4 <ArrowDownward className='featuredIcon negative' />
                </span>
             </div>
             <span className='featuredSub'>Compared to last month</span>
@@ -20,7 +20,7 @@ export default function Feature() {
             <div className='featuredMoneyContainer'>
                <span className='featuredMoney'>$1500</span>
                <span className='featuredMoneyRate'>
-                  -11.4 <ArrowDownward />
+                  -11.4 <ArrowDownward className='featuredIcon' />
                </span>
             </div>
             <span className='featuredSub'>Compared to last month</span>

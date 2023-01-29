@@ -29,3 +29,16 @@
    align-items: center;
    margin-left: 10px;
 }
+
+.featuredIcon {
+   margin-left: 5px;
+   font-size: 14px;
+   color: green;
+}
+.featuredIcon.negative {
+   color: red;
+}
+.featuredSub {
+   font-size: 15px;
+   color: gray;
+}
