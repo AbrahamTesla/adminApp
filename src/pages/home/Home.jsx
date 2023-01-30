@@ -3,6 +3,8 @@ import Chart from '../../components/chart/Chart';
 import Feature from '../../components/featuredInfo/Feature';
 import './home.css';
 import { userData } from '../../dummyData.js';
+import WidgetLg from '../../components/widgetLg/WidgetLg';
+import WidgetSm from '../../components/widgetSm/WidgetSm';
 
 export default function Home() {
    return (
@@ -14,6 +16,10 @@ export default function Home() {
             title='User Analytics'
             grid
          />
+         <div className='homeWidgets'>
+            <WidgetSm />
+            <WidgetLg />
+         </div>
       </div>
    );
 }
