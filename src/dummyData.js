@@ -32,3 +32,96 @@ export const userData = [
       'Active User': 3000,
    },
 ];
+
+export const userRows = [
+   {
+      id: 1,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 2,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 3,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 4,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 5,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 6,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 7,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 8,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 9,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+   {
+      id: 10,
+      username: 'Alesso Neo',
+      avatar:
+         'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      email: 'AlessoNeo@gmail.com',
+      status: 'active',
+      transaction: '$3303',
+   },
+];

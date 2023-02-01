@@ -3,7 +3,7 @@ import SideBar from './components/sidebar/SideBar';
 import TopBar from './components/topbar/TopBar';
 import './app.css';
 import Home from './pages/home/Home';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import UserList from './pages/userList/UserList';
 
 function App() {
