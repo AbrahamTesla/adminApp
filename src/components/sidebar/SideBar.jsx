@@ -40,7 +40,7 @@ export default function SideBar() {
             <div className='sideBarMenu'>
                <h3 className='sideBarTitle'>Quick Menu</h3>
                <ul className='sideBarList'>
-                  <li className='sideBarListItem active'>
+                  <li className='sideBarListItem'>
                      <PersonOutline className='sideBarIcons' />
                      Users
                   </li>
@@ -61,7 +61,7 @@ export default function SideBar() {
             <div className='sideBarMenu'>
                <h3 className='sideBarTitle'>Notifications</h3>
                <ul className='sideBarList'>
-                  <li className='sideBarListItem active'>
+                  <li className='sideBarListItem'>
                      <Email className='sideBarIcons' />
                      Mail
                   </li>
@@ -78,7 +78,7 @@ export default function SideBar() {
             <div className='sideBarMenu'>
                <h3 className='sideBarTitle'>Staffs</h3>
                <ul className='sideBarList'>
-                  <li className='sideBarListItem active'>
+                  <li className='sideBarListItem'>
                      <ManageAccountsOutlined className='sideBarIcons' />
                      Manage
                   </li>

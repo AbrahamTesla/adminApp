@@ -1,0 +1,94 @@
+.user {
+   flex: 4;
+   padding: 20px;
+}
+
+.userTitleContainer {
+   display: flex;
+   justify-content: space-between;
+}
+
+.userAddButton {
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   background-color: teal;
+   font-weight: 300;
+   width: 80px;
+}
+
+.userAddButton:hover {
+   background-color: rgb(235, 166, 166);
+   color: black;
+   font-weight: 600;
+}
+
+.userContainer {
+   display: flex;
+   margin-top: 10px;
+}
+
+.userShow {
+   flex: 1;
+   -webkit-box-shadow: 5px 5px 15px -2px #000000;
+   box-shadow: 5px 5px 15px -2px #000000;
+   padding: 20px;
+}
+.userUpdate {
+   flex: 2;
+   -webkit-box-shadow: 5px 5px 15px -2px #000000;
+   box-shadow: 5px 5px 15px -2px #000000;
+   margin-left: 20px;
+}
+
+.userShowTop {
+   display: flex;
+   align-items: center;
+}
+
+.userImage {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin-right: 10px;
+   object-fit: cover;
+}
+
+.userShowTopTitle {
+   display: flex;
+   flex-direction: column;
+}
+
+.userShowName {
+   font-weight: 600;
+}
+
+.userShowJobTitle {
+   font-weight: 300;
+}
+
+.userShowBottom {
+   margin-top: 20px;
+}
+
+.userShowTitle {
+   font-size: 14px;
+   font-weight: 600;
+   color: lightgray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.userShowInfoContainer {
+   display: flex;
+   align-items: center;
+   margin: 20px 0px;
+   color: #444;
+}
+
+.userShowIcon {
+   margin-right: 20px;
+}
