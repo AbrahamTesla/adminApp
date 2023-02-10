@@ -92,3 +92,76 @@
 .userShowIcon {
    margin-right: 20px;
 }
+
+.userUpdate {
+   padding: 20px;
+}
+
+.userUpdateForm {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.userUpdateTitle {
+   font: 24px;
+   font-weight: 600;
+}
+
+.userUpdateItem {
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+.userUpdateInput {
+   border: none;
+   border-bottom: 1px solid gray;
+   width: 250px;
+   height: 20px;
+}
+
+.userUpdateRight {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.userUpdateUpload {
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+}
+
+.userUpdateIcon {
+   cursor: pointer;
+}
+
+.userUpdateItem > label {
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+
+.userUpdateImg {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 10px;
+   margin-right: 20px;
+}
+
+.userUpdateButton {
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: 300;
+   color: white;
+   background-color: teal;
+   padding: 10px;
+}
+
+.userUpdateButton:hover {
+   background-color: rgb(235, 166, 166);
+   color: black;
+   font-weight: 600;
+}

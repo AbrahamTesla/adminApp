@@ -3,8 +3,10 @@ import {
    Home,
    MailOutlined,
    PermIdentity,
+   Publish,
 } from '@mui/icons-material';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './user.css';
 
 export default function User() {
@@ -12,7 +14,9 @@ export default function User() {
       <div className='user'>
          <div className='userTitleContainer'>
             <h1 className='editUser'>Edit User</h1>
-            <button className='userAddButton'>Create</button>
+            <Link to='/newUser'>
+               <button className='userAddButton'>Create</button>
+            </Link>
          </div>
          <div className='userContainer'>
             <div className='userShow'>
@@ -95,6 +99,24 @@ export default function User() {
                            className='userUpdateInput'
                         />
                      </div>
+                  </div>
+                  <div className='userUpdateRight'>
+                     <div className='userUpdateUpload'>
+                        <img
+                           src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                           alt=''
+                           className='userUpdateImg'
+                        />
+                        <label htmlFor='file'>
+                           <Publish className='userUpdateIcon' />
+                        </label>
+                        <input
+                           type='file'
+                           id='file'
+                           style={{ display: 'none' }}
+                        />
+                     </div>
+                     <button className='userUpdateButton'>Update</button>
                   </div>
                </form>
             </div>
