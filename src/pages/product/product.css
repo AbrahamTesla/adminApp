@@ -1,0 +1,27 @@
+.product {
+   flex: 4;
+   padding: 20px;
+}
+
+.productContainer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.productCreateButton {
+   border: none;
+   width: 80px;
+   border-radius: 5px;
+   font-weight: 600;
+   background-color: teal;
+   color: white;
+   cursor: pointer;
+   padding: 5px;
+}
+
+.productCreateButton:hover {
+   color: black;
+   background-color: rgb(235, 166, 166);
+   font-weight: 600;
+}

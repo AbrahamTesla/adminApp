@@ -48,17 +48,22 @@ export default function SideBar() {
                <ul className='sideBarList'>
                   <Link
                      to='/users'
-                     style={{ textDecoration: 'none', color: '#555' }}
+                     style={{ textDecoration: 'none', color: 'inherit' }}
                   >
                      <li className='sideBarListItem'>
                         <PersonOutline className='sideBarIcons' />
                         Users
                      </li>
                   </Link>
-                  <li className='sideBarListItem'>
-                     <Inventory2 className='sideBarIcons' />
-                     Products
-                  </li>
+                  <Link
+                     to='/products'
+                     style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                     <li className='sideBarListItem'>
+                        <Inventory2 className='sideBarIcons' />
+                        Products
+                     </li>
+                  </Link>
                   <li className='sideBarListItem'>
                      <PaidOutlined className='sideBarIcons' />
                      Transactions
