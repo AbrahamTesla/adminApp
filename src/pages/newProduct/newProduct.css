@@ -1,0 +1,44 @@
+.newProduct {
+   flex: 4;
+   padding: 20px;
+}
+
+.newProductContainer {
+   -webkit-box-shadow: 5px 5px 15px -2px #000000;
+   box-shadow: 5px 5px 15px -2px #000000;
+   padding: 20px;
+   width: 50%;
+}
+
+.productHeaderContainer {
+   margin: 20px 0px;
+   display: flex;
+   flex-direction: column;
+}
+
+.productHeaderContainer > label {
+   font-weight: 300;
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+.productHeaderContainer > input:hover {
+   color: blue;
+}
+
+.productUpdateForm {
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+}
+
+.productUpdateForm > label {
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+
+.productUpdateForm > input {
+   padding: 10px;
+   border: none;
+   border-bottom: 1px solid gray;
+}
