@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AbrahamTesla.github.io/adminApp/static/css/main.0910700c.css",
-    "main.js": "/AbrahamTesla.github.io/adminApp/static/js/main.c9095706.js",
+    "main.js": "/AbrahamTesla.github.io/adminApp/static/js/main.20f98f48.js",
     "index.html": "/AbrahamTesla.github.io/adminApp/index.html",
     "main.0910700c.css.map": "/AbrahamTesla.github.io/adminApp/static/css/main.0910700c.css.map",
-    "main.c9095706.js.map": "/AbrahamTesla.github.io/adminApp/static/js/main.c9095706.js.map"
+    "main.20f98f48.js.map": "/AbrahamTesla.github.io/adminApp/static/js/main.20f98f48.js.map"
   },
   "entrypoints": [
     "static/css/main.0910700c.css",
-    "static/js/main.c9095706.js"
+    "static/js/main.20f98f48.js"
   ]
 }
