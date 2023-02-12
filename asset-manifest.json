@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/AbrahamTesla.github.io/adminApp/static/css/main.0910700c.css",
-    "main.js": "/AbrahamTesla.github.io/adminApp/static/js/main.20f98f48.js",
-    "index.html": "/AbrahamTesla.github.io/adminApp/index.html",
-    "main.0910700c.css.map": "/AbrahamTesla.github.io/adminApp/static/css/main.0910700c.css.map",
-    "main.20f98f48.js.map": "/AbrahamTesla.github.io/adminApp/static/js/main.20f98f48.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.0910700c.css",
-    "static/js/main.20f98f48.js"
-  ]
+  "main.css": "/github.io/adminApp/static/css/main.645a3dcb.chunk.css",
+  "main.js": "/github.io/adminApp/static/js/main.555a911d.chunk.js",
+  "main.js.map": "/github.io/adminApp/static/js/main.555a911d.chunk.js.map",
+  "static/js/1.c5cc0a33.chunk.js": "/github.io/adminApp/static/js/1.c5cc0a33.chunk.js",
+  "static/js/1.c5cc0a33.chunk.js.map": "/github.io/adminApp/static/js/1.c5cc0a33.chunk.js.map",
+  "runtime~main.js": "/github.io/adminApp/static/js/runtime~main.1a10289d.js",
+  "runtime~main.js.map": "/github.io/adminApp/static/js/runtime~main.1a10289d.js.map",
+  "static/css/main.645a3dcb.chunk.css.map": "/github.io/adminApp/static/css/main.645a3dcb.chunk.css.map",
+  "index.html": "/github.io/adminApp/index.html",
+  "precache-manifest.32404935ba208720065921831701c157.js": "/github.io/adminApp/precache-manifest.32404935ba208720065921831701c157.js",
+  "service-worker.js": "/github.io/adminApp/service-worker.js"
 }
