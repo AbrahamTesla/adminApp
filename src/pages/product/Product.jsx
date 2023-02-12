@@ -2,15 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './product.css';
 import Chart from '../../components/chart/Chart';
-import { productData } from '../../dummyData';
+import { productData } from '../../dummyData.js';
 import { Publish } from '@mui/icons-material';
 
 export default function Product() {
+   console.log(productData);
    return (
       <div className='product'>
          <div className='productContainer'>
             <h1 className='productTitle'>Product</h1>
-            <Link to='/newProduct'>
+            <Link to='/newProducts'>
                <button className='productCreateButton'>Create</button>
             </Link>
          </div>

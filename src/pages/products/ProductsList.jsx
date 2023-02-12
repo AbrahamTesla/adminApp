@@ -12,6 +12,7 @@ export default function ProductsList() {
       setData(data.filter(item => item.id !== id));
    };
 
+   console.log(productRows);
    const columns = [
       { field: 'id', headerName: 'ID', width: 90 },
       {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './users.css';
 import { DataGrid } from '@mui/x-data-grid';
 import { DeleteOutlined } from '@mui/icons-material';
-import { userRows } from '../../dummyData';
+import { userRows } from '../../dummyData.js';
 import { Link } from 'react-router-dom';
 
 export default function UserList() {
@@ -11,7 +11,7 @@ export default function UserList() {
    const handleDelete = id => {
       setData(data.filter(item => item.id !== id));
    };
-
+   console.log(userRows);
    const columns = [
       { field: 'id', headerName: 'ID', width: 90 },
       {
